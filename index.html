@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="I'm a McGill University student from Montreal, QC. Big fan of sandwiches, big fan of music, big fan of American Football/Rugby/Hockey and Problem solving.">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>     
+        <title>Elie Climan</title>
+        
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/img/helloElie.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/img/helloElie.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/img/helloElie.ico">
+        <link rel="manifest" href="/resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/resources/img/helloElie.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="resources/img/HELLOELIE.png" alt="" class="logo">
+                    <img src="resources/img/HELLOELIE.png" alt="" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="https://github.com/ecliman?tab=repositories">Developer</a></li>
+                        <li><a href="#works">DJ</a></li>
+                        <li><a href="#student">Student</a></li>
+                
+                        <li><a href="#http://127.0.0.1:50099/blog.html">About me</a></li>
+                        <li><a href="#connect">Contact Me</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+    
+                <h1>Bonjour/Hi<br>My name is Elie.</h1>
+            </div>
+
+            <div class="text">
+                <a class="btn btn-Full js--scroll-to-works" href="#works">DJ</a>
+                <a class="btn btn-Full js--scroll-to-features" href="https://github.com/ecliman?tab=repositories">Developer</a>
+                <a class="btn btn-Full js--scroll-to-cities" href="#student">Student</a>
+            </div>
+
+
+        
+
+
+        </header>
+                 <section class="section-plans js--section-plans" id="plans">
+            <div class="row" onMouseOver="typeWriter()">
+                <h2>An Overview of what makes me, me</h2>
+            </div>
+        <p id="demo"></p>
+    <script>
+        var i = 0;
+        var speed = 150;
+        var txt = "There are a lot of small details that make us who we are."
+         
+        function typeWriter() {
+    if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    document.getElementById("demo").style.color = "#000000";
+    document.getElementById("demo").style.fontFamily = "Courier New, Courier, monospace";
+    document.getElementById("demo").style.fontSize = "xx-large";
+    document.getElementById("demo").style.textAlign = "center";
+
+    
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script> 
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+                        <div>
+                            <h3>Developer</h3>
+                            <p class="">GitHub <span> </span></p>
+                            <p class="plan-price-meal">https://github.com/ecliman?tab=repositories</p>
+                            
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class=""></i>UX/UI</li>
+                                <li><i class=""></i>Backend</li>
+                                <li><i class=""></i>Machine Learning</li>
+                                <li><i class=""></i>Blockchain/Crypto Enthusiast</li>
+                                
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="https://github.com/ecliman?tab=repositories" class="btn btn-full">Click to see projects!</a>
+                
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>DJ</h3>
+                            <p class="">Check me out! <span>
+                            <p class="plan-price-meal">https://soundcloud.com/elie-climan</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class=""></i>Club DJ</li>
+                                <li><i class=""></i>University Event Planning</li>
+                                <li><i class=""></i>Music I like</li>
+                                <li><i class=""></i>Music Production</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="https://soundcloud.com/elie-climan" class="btn btn-full">Click to Peep my mixtape </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Student @ mcgill </h3>
+                            <p class="">Computer Science <span>/ Economics</span></p>
+                            <p class="plan-price-meal">&nbsp;</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class=""></i></li>
+                                <li><i class=""></i>Machine Learning</li>
+                                <li><i class=""></i>Macro Economics</li>
+                                <li><i class=""></i>Financial Instruments&Institutions </li>
+                                <li><i class=""></i>School/Club involvement</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="mailto: eliedcliman@gmail.com?subject = You need to read this!" class="btn btn-full">Click to send me articles! </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-plans js--section-plans" id="plans">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/largeokHELLOELIE.jpg" alt="Korean bibimbap with egg and vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/oap.jpeg" alt = "dj hello elie">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/hockey.jpeg" alt="Chicken breast steak with vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/ottawa.jpeg" alt="Autumn pumpkin soup">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/setup.jpeg" alt="Paleo beef steak with vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/football.jpeg" alt="Healthy baguette with egg and vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/codinsta.jpeg" alt="Burger with cheddar and bacon">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/img/boat.jpeg" alt="Granola with cherries and strawberries">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        
+        
+        <section class="section-steps" id="works">
+            <div class="row">
+                <h2>Music &mdash; Dj, Producer, Listener</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/okHELLOELIE.JPG" alt="Omnifood app on iPhone" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step">
+                        <div>1</div>
+                        <p>Club DJ having played at: Suwu, Mme Lees, Apartment 200, Hydan, Santos and many more. </p>
+                    </div>
+                    <div class="works-step">
+                        <div>2</div>
+                        <p>Music Producer trying my hand at funk house (message me if you're interested!)</p>
+                    </div>
+                    <div class="works-step">
+                        <div>3</div>
+                        <p>Current favourites include: Chris Cornell, Abhi the Nomad, Tom Misch, Roddy Richh, Kaytranada and Rüfus Du Sol. Send me your favourites!</p>
+                    </div>
+                    <div class="works-step">
+                        <div>4</div>
+                        <p>I've helped produce and finance concerts in Montreal for artists such as Lou Phelps (Coachella Artist 2020), Pressa and Kweku Collins</p>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-plans js--section-plans" id="student">
+            <div class="row">
+                <h2>Student</h2>
+            </div>
+            <div class="row js--wp-3">
+                <div class="col span-1-of-2 box">
+                    <img src="resources/img/mcgillcs.png" alt="Lisbon">
+                    <h3>Computer Science</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person icon-small"></i>
+                        Courses Taken: Foundations of Computer Programming,  Algorithms and Data Structure, Intro to Computer Science, Software Design, Applied Machine Learning, Cloud Computing, Database Systems, Programming Challenges, Discrete Mathematics, Linear Algebra,Software Systems, Computer Systems, C++
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-star icon-small"></i>
+                        Languages: Java, Python, C++, Javascript, MIPS Assembly, SQL, HTML, CSS
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-star icon-small"></i>
+                        Tools / Frameworks: Keras, TensorFlow, Eclipse, VS Code, Pycharm, Google VM Compute (cuda)
+                    </div>
+                </div>
+                <div class="col span-1-of-2 box">
+                    <img src="resources/img/economics.png" alt="San Francisco">
+                    <h3>Economics</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person icon-small"></i>
+                        Courses Taken: Microeconomics, Macroeconomics, Microeconomic Theory, Macroeconomic Theory, Financial Instruments & Institutions, Current Economic Problems, Economic Development II, Underground Economy, Statistics, Labour Markets & Wages
+                    </div>
+
+                </div>
+                
+            </div>
+            
+    
+        
+
+        
+        <section class="section-form" id = "connect">
+            <div class="row">
+                <h2>Hit me up! </h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find me?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="search">Search engine</option>
+                                <option value="ad">LinkedIn</option>
+                                <option value="other">GitHub</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>What's up?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">Resume</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/in/elie-climan/"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="https://github.com/ecliman?tab=repositories"><i class="ion-social-github"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2020, Elie Climan.
+                </p>
+            </div>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="js/typed.min.js" time = "text/javascript"></script>
+        <script src="resources/js/script.js"></script>
+        
+    </body>
+</html>
